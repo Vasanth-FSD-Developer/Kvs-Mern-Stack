@@ -17,8 +17,7 @@ const userSchema = new mongoose.Schema({
     },
     avatar :{
         type: String,
-        default: "https://static.vecteezy.com/system/resources/thumbnails/019/900/322/small/happy-young-cute-illustration-face-profile-png.png",
-
+        default: "https://static.vecteezy.com/system/resources/thumbnails/019/900/322/small/happy-young-cute-illustration-face-profile-png.png"
     },
 },{timestamps:true});
 
